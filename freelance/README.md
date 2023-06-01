@@ -29,11 +29,11 @@ color: blue;
 
 - para formatear el codigo y que se adapte en cualquier dipositivo se trabajará con el siguiente formato
 
-````css
+```css
 html {
   font-size: 62.5%;
 }
 body {
   font-size: 16px;
-} ```
-````
+}
+```
