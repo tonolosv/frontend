@@ -1,23 +1,46 @@
 # Freelance site
 
-sitio trabajado solamente con etiquetas html, para conocer los fundamentos para crear un sitio de manera básica
+Sitio trabajado solamente con etiquetas html y CSS, para conocer los fundamentos para crear un sitio
 
 ### Seccion 5 | Esquematizacion de un sitio básico
 
-- para la creacion de los iconos [tablericons](https://tablericons.com/).
-  Las dimensiones de los iconos son tomados segun lo propuesto por el tutor
+- para el uso de iconos existen diferentes proveedores
 
-- Cada elemento del formulario label e input, fueron colocados dentro de un div
+  - [tablericons](https://tablericons.com/)
+  - [heroicons](https://heroicons.com/)
+  - [fontawesome](https://fontawesome.com/)
 
-- la estructura de la pagina ha sido sencilla, pues el css dará el estilo necesario para que se mejore su apariencia
+- Las dimensiones de los iconos son tomados segun lo propuesto por el tutor
+
+Cada elemento del formulario label e input, fueron colocados dentro de un div
+
+#### Etiquetas que sirven para agrupar contenido
+
+`<header>` Encabezados y navegacion principal de un sitio
+
+`<footer>` pie de pagina del site, informacion conglomerada
+
+`<nav>` navegacion a diferentes partes de un sitio
+
+`<main>` Informacion que se puede considerar importante
+
+`<section>` secciones que añaden valor al main
+
+`<article>` articulos de importancia, que pueden o no pertencer a un sitio
+
+`<aside>` informacion que aparece como noticia relevante, pero corta
+
+`<div>` agrupacion de los anteriores, su proposito es caracter de manipulacion con CSS
+
+---
 
 ### Sección 6 | Conociendo CSS. Básico
 
 Estructura que se maneja en CSS
 
-```
+```css
 p {
-color: blue;
+  color: blue;
 }
 ```
 
