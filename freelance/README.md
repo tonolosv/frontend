@@ -36,7 +36,9 @@ Cada elemento del formulario label e input, fueron colocados dentro de un div
 
 ### Sección 6 | Conociendo CSS. Básico
 
-Estructura que se maneja en CSS
+Estructura que se maneja en CSS, para darle diseño a la web
+
+- por elemento
 
 ```css
 p {
@@ -44,13 +46,63 @@ p {
 }
 ```
 
-#### Consideraciones
+- por clases (.), definido en html
 
-- utilizar un preload para el css
+```css
+.cliente {
+  color: blue;
+}
+```
 
-  ` <link rel="preload" href="css/style.css" as="style">`
+- por id(#) y solamente se puede usar en una etiqueta unica, y no pueden repetirse
 
-- para formatear el codigo y que se adapte en cualquier dipositivo se trabajará con el siguiente formato
+```css
+#cliente {
+  color: blue;
+}
+```
+
+- por atributos que se definieron en el html
+
+```css
+[src='logo.jpg'] {
+  color: black;
+}
+```
+
+- combinacion de descendentes, considerese de padre a hijos en una clase o id en especifico
+
+```css
+.cliente .nombre {
+  color: yellow;
+}
+```
+
+- todos los hijos, ojo que la diferencia esta en el "_>_"
+
+```css
+.cliente > p {
+  color: green;
+}
+```
+
+_Consideraciones_
+
+- las propiedades se van utilizando segun sea el ultimo definido
+
+- utilizar un _preload_ para el css, cargue mas rapido
+
+`<link rel="preload" href="css/style.css" as="style">`
+
+- unidades de medidas utilizadas:
+
+> em: basado el tamaño del documento
+
+> px: pixeles segun pantalla de donde se visualiza
+
+> rem: relativo al documento, al elemento padre
+
+- para formatear el codigo y que se adapte en cualquier dipositivo se trabajará con el siguiente formato. "reinicio del documento"
 
 ```css
 html {
@@ -60,3 +112,22 @@ body {
   font-size: 16px;
 }
 ```
+
+### Espeficidad en CSS
+
+Al trabajar en CSS, se realiza con mayor enfasis detallar los cambios a realizar al documento y este debe ir directamente amarrado con la etiqueta, se recomienda usar clases, mas especifico sea el selector este se aplicara primero dejando de lado aquellos que esten debajo, por ende no funciona como cascadas
+!important bloquea lo anteriormente definido
+
+```css
+h1.titulo span {
+  font-size: 2rem;
+}
+```
+
+codigo
+
+![Detalle en codigo ](img/especificidad_2.png 'Description')
+
+html
+
+![Visualizacion](img/especificidad.png 'Description')

@@ -11,6 +11,13 @@ body {
   text-align: center;
   font-size: 3.8rem;
 }
-.titulo span {
+
+h1.titulo span {
   font-size: 2rem;
+  color: blue;
+}
+
+.titulo span {
+  font-size: 3rem;
+  color: red;
 }
