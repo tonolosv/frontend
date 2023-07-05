@@ -131,3 +131,53 @@ codigo
 html
 
 ![Visualizacion](img/especificidad.png 'Description')
+
+### Definiendo la hoja de estilos CSS
+
+#### Variables
+
+Los pseudoelementos son caracteristicas que no existen, pero se usan dentro de una condicion CSS para utlizarlos. Por ello da paso a los _customs properties_
+
+Los customs properties son valores que se crean y utilizan como default en todo el proyecto, estos pueden cambiar; pero la ventaja que se tienen es que cada vez que se realiza un cambio solo se manda a llamar el custom propierties y no por el valor definido
+
+```css
+:root {
+  maincolor: #ffffff;
+  secondcolor: #00000;
+}
+```
+
+Para poder utilizar los customs properties, solamente es de llamar a la variable en si, con _*var*_
+
+```css
+.titulo {
+  color: var(--maincolor);
+}
+```
+
+#### Fuentes y normalize
+
+- Fuentes
+
+  La gran mayoria de las fuentes utilizadas son provenientes de [google fonts](https://fonts.google.com/), al escoger una fuente del abanico de opciones es necesario linkear de la siguiente manera en nuestro archivo html
+
+```html
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelance Site</title>
+  <!--Notese que las fuentes van primero que las hojas de estilo. Especificidad-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Krub:wght@200;400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preload" href="css/style.css" as="style" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+```
+
+- Normalize
+  Reset a que los elementos sean consistentes en todos los navegadores.
+  Se recomienda que este en un archivo aparte
+  [Normalize](https://necolas.github.io/normalize.css/)
