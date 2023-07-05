@@ -181,3 +181,19 @@ Para poder utilizar los customs properties, solamente es de llamar a la variable
   Reset a que los elementos sean consistentes en todos los navegadores.
   Se recomienda que este en un archivo aparte
   [Normalize](https://necolas.github.io/normalize.css/)
+
+- Consideraciones en el css
+
+  - se pueden escribir 2 o mas clases en un atributo
+  - width: ancho de un atributo
+  - margin: en que posicion se coloca un elemento _top_, , _right_, _bottom_, _left_.
+    ```css
+    .conteiner {
+      margin: 0 auto 0 auto;
+    }
+    ```
+  - display block | inline
+    block: el elemento se coloco debajo del otro
+    inline: se posiciona a la derecha, con el espacio requerido y el siguient lo coloca a la derecha
+
+  - padding: separacion dentro del elemento, este lo hace hacia adentro
