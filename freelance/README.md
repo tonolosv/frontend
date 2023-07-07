@@ -245,3 +245,26 @@ se define segun la descripcion de la propiedad, acompañada por el etiqueta
 `.card img {}`
 
 `.card a {}`
+
+### Responsive Design
+
+Adaptabilidad a las resoluciones segun donde se navegue con media querys. La condicion que se acepta es la definida en _px_ desde alli, habra una modificacion para la resolucion de la pantalla
+
+- ```css
+  @media (min-width: 768px) {
+  }
+  ```
+
+- ```css
+  @media (min-width: 992px) {
+  }
+  ```
+
+Creando un snippet para los media querys
+
+```json
+'crea un media query': {
+  "prefix":"mq",
+  "body": '@media (min-width: $1) {\n   $2\n}';
+}
+```
