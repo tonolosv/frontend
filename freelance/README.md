@@ -197,3 +197,51 @@ Para poder utilizar los customs properties, solamente es de llamar a la variable
     inline: se posiciona a la derecha, con el espacio requerido y el siguient lo coloca a la derecha
 
   - padding: separacion dentro del elemento, este lo hace hacia adentro del mismo. Referencia las manecillas del reloj
+
+#### BEM Modulos y utilidades
+
+- Block
+  `.card {}`
+
+  Bloque que englobara varios elementos, se le puede denominar como block main
+
+- Elements
+
+  `.card__titulo{}`
+
+  `.card__imagen{}`
+
+  `.card__boton{}`
+
+  Son los elementos que estan dentro del elemento principal y que se van a diferenciar con guiones bajos "\_\_"
+
+- Modifier
+
+  `.card__boton--activo`
+
+  Segun la condicion en la que se encuentra, asi se describe el modificador, para el ejemplo anterior el boton esta activo
+
+#### Utility First
+
+Una propiedad con un valor de la clase, describiendo lo que esa clase afectara en el html
+
+`.text-center {}`
+
+`.color_red-100 {}`
+
+`bg-blue-200 {}`
+
+`p-2 {}` // padding
+
+`m-2 {}` //margin
+
+#### Modulos
+
+se define segun la descripcion de la propiedad, acompañada por el etiqueta
+`.card {}`
+
+`.card h2 {}`
+
+`.card img {}`
+
+`.card a {}`
