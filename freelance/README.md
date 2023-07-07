@@ -193,7 +193,7 @@ Para poder utilizar los customs properties, solamente es de llamar a la variable
     }
     ```
   - display block | inline
-    block: el elemento se coloco debajo del otro
+    block: el elemento se coloca debajo del otro, ocupando todo el espacio disponible
     inline: se posiciona a la derecha, con el espacio requerido y el siguient lo coloca a la derecha
 
-  - padding: separacion dentro del elemento, este lo hace hacia adentro
+  - padding: separacion dentro del elemento, este lo hace hacia adentro del mismo. Referencia las manecillas del reloj
