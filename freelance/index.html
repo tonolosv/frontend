@@ -162,45 +162,45 @@
         </section>
       </div>
       <!--cierre servicios-->
+
+      <section>
+        <h2>Contacto</h2>
+        <form class="formulario">
+          <fieldset>
+            <legend>Contáctanos llenando todos los campos</legend>
+            <!-- label{nombre de campo}+input[atributos] -->
+            <div class="contenedor-campos">
+              <div class="campo">
+                <label>Nombres</label>
+                <input class="input-text" type="text" placeholder="nombre" />
+              </div>
+              <div class="campo">
+                <label>Telefono</label>
+                <input
+                  class="input-text"
+                  type="tel"
+                  placeholder="Tu Telefono" />
+              </div>
+              <div class="campo">
+                <label>Correo</label>
+                <input class="input-text" type="email" placeholder="Tu email" />
+              </div>
+              <div class="campo">
+                <label for="">Mensaje</label>
+                <textarea class="input-text"></textarea>
+              </div>
+            </div>
+
+            <!-- input[type="submit"][value="Enviar"] -->
+            <div class="alinear-derecha flex">
+              <input class="boton w-sm-100" type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
     </main>
 
-    <section>
-      <h2>Contacto</h2>
-      <form>
-        <fieldset>
-          <legend>Contáctanos llenando todos los campos</legend>
-          <!-- label{nombre de campo}+input[atributos] -->
-          <div>
-            <label>Nombres</label>
-            <input type="text" placeholder="nombre" />
-          </div>
-
-          <div>
-            <label for="">Apelllidos</label>
-            <input type="text" placeholder="Apellido" />
-          </div>
-
-          <div>
-            <label>Telefono</label>
-            <input type="tel" placeholder="Tu Telefono" />
-          </div>
-          <div>
-            <label>Correo</label>
-            <input type="email" placeholder="Tu email" />
-          </div>
-          <div>
-            <label for="">Mensaje</label>
-            <textarea></textarea>
-          </div>
-          <div>
-            <!-- input[type="submit"][value="Enviar"] -->
-            <input type="submit" value="Enviar" />
-          </div>
-        </fieldset>
-      </form>
-    </section>
-
-    <footer>
+    <footer class="footer">
       <p>Todos los derechos reservados. Daniel López | 2023</p>
     </footer>
   </body>
