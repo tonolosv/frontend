@@ -251,11 +251,13 @@ se define segun la descripcion de la propiedad, acompañada por el etiqueta
 Adaptabilidad a las resoluciones segun donde se navegue con media querys. La condicion que se acepta es la definida en _px_ desde alli, habra una modificacion para la resolucion de la pantalla
 
 - ```css
-  @media (min-width: 768px) {}
+  @media (min-width: 768px) {
+  }
   ```
 
 - ```css
-  @media (min-width: 992px) {}
+  @media (min-width: 992px) {
+  }
   ```
 
 Creando un snippet para los media querys
@@ -264,5 +266,49 @@ Creando un snippet para los media querys
 'crea un media query': {
   "prefix":"mq",
   "body": '@media (min-width: $1) {\n   $2\n}';
+}
+```
+
+#### Box Model CSS
+
+Es lo que limita a un elemento teniendo 4 consideraciones:
+
+- tamaño del contenido
+- tamaño del relleno (padding)
+- tamaño del borde
+- margen
+
+Lo anterior marca una tarea mas compleja para la colocacion de los elementos porque se debe estar sumando o restando cualesquiera de los elementos, por ello se tiene una alternativa para reajustar dichos paramentros, [Box-sizing: Border-Box](https://www.paulirish.com/2012/box-sizing-border-box-ftw/), permite sustraer pixeles del _width_ original para que no se expanda
+
+```css
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+```
+
+Los (\*) selecciona todos los elementos del html, de manera universal. A todos los elemtos le aplica l box sizing border box; por ello cuando se maneja los diferentes medidas para los elementos no seran afectados
+
+#### Posicionamiento Relativa y absoluta
+
+La posicion exacta de los elementos lo ideal es usar posicion absoluta y relativa, donde el padre tiene que estar con posicion _Relativa_ y al hijo posicion _absoluta_, porque de es manera se van manejando sus condicionantes. Tambien se debe tomar en cuenta que siempre esta presente top, rigth, bottom y left como parte del formato de posicionamiento
+
+![Relativa y absoluta](img/relative.png 'Description')
+
+Con el codigo se manajera los siguiente
+
+```css
+.hero {
+  /* Contenedor padre*/
+  position: relative;
+}
+
+.contenido-hero {
+  /*Contenedor hijo*/
+  position: absolute;
 }
 ```
