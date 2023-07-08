@@ -312,3 +312,38 @@ Con el codigo se manajera los siguiente
   position: absolute;
 }
 ```
+
+#### Degradados cap 43
+
+Codigo en css para que las paginas tengan un diferenciador en el color de fondo(comunmente aplicado) siempre en el _body_ del css y se va manejando para lo que se considere el gradiente
+
+```css
+body {
+  background-image: linear-gradient(
+    to top,
+    /*desde terminara*/ var(--grisClaro 0%, var(--blanco) 100%)
+  );
+}
+```
+
+#### Sombras
+
+Para la aplicacion de sombras se recomienda [cssmatic](https://www.cssmatic.com/box-shadow) para que el codigo que esta pagina genere, trasladarlo al css principal
+
+#### CSS GRID
+
+Permite definir la ubicacion y el tamaño de los elementos en 2 dimensiones la funcion del sistema _GRid_, se asemeja a un tabla con la colocacion de los objetos intercalando arriba/abajo y derecha/izquierda [guia online](https://www.tutorjoes.in/css_tutorial/grid_introduction_in_css)
+
+![Grid](img/flex-vs-grid.png)
+
+para ingresar a esas dimensiones con
+
+- _grid-template-columns_
+- _grid_template-rows_
+- _grid: 200px 800px / 300px 300px_ row es la primera definida y despues de la "/" se define la columna, las 2 opciones presentadas son ya desfazadas
+
+Consideraciones
+
+1. Usar Flexbox: Alineacion y distribucion de elementos que estan **dentro** de contenedores, esos pueden ser _nav_
+
+2. Usar Grid: **Layout** que contienen la pagina web porque se pueden distribuir segun las necesidades
