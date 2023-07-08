@@ -13,6 +13,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-snap-type: y mandatory;
 }
 
 *,
@@ -170,6 +171,13 @@ h3 {
   align-items: flex-end;
 }
 
+/*cuando se haga scroll se detiene en servicios*/
+.servicios,
+.navegacion-principal,
+.formulario {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
 /* SERVICIOS */
 /*Cuando se vea en una pantalla se utilizara esta visualizacion */
 @media (min-width: 768px) {

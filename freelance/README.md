@@ -347,3 +347,7 @@ Consideraciones
 1. Usar Flexbox: Alineacion y distribucion de elementos que estan **dentro** de contenedores, esos pueden ser _nav_
 
 2. Usar Grid: **Layout** que contienen la pagina web porque se pueden distribuir segun las necesidades
+
+3. Para el formulario se trabajan los campos detallando las condiciones que se adapataran desde la visualizacion en un movil y otros dispositivos
+
+4. Unas de las nuevas caracteristicas que da mejor visualizacion, el scroll se detiene en cada area de la web
