@@ -351,3 +351,5 @@ Consideraciones
 3. Para el formulario se trabajan los campos detallando las condiciones que se adapataran desde la visualizacion en un movil y otros dispositivos
 
 4. Unas de las nuevas caracteristicas que da mejor visualizacion, el scroll se detiene en cada area de la web
+
+5. Para ver la web terminada visita [example-freelance](https://example-freelance.netlify.app/)
