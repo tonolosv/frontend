@@ -55,3 +55,47 @@ h2 {
 h3 {
   font-size: 2.4rem;
 }
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__logo {
+  margin: 3rem 0;
+}
+/* FOOTER */
+.footer {
+  background-color: var(--primarioOscuro);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.footer__texto {
+  font-family: var(--fuentePrincipal);
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+/* NAVEGACION */
+.navegacion {
+  background-color: var(--primarioOscuro);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /*Separacion entre elementos*/
+}
+.navegacion__enlace {
+  font-family: var(--fuentePrincipal);
+  color: var(--blanco);
+  font-size: 3rem;
+}
+/*
+al ultimo elemento posicionado elimina el margin que se genera por defecto
+.navegacion__enlace:last-of-type {
+  margin-right: 0;
+}
+*/
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+  color: var(--secundario);
+}
