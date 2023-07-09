@@ -35,4 +35,22 @@ Metodologia para crear archivos `CSS` de manera reutilizable y ordenada; se debe
 
 ---
 
-Herramienta que se consulta para confirmar la propiedad en un elemento es [CanIUse](https://caniuse.com/), muestra el soporte que tiene en los diferentes navegadores que son los mas usados.
+Herramienta que se consulta para confirmar si la propiedad utilizad en un elemento es [CanIUse](https://caniuse.com/), es soportada por los navegadores que hay en el mercado
+Cuando se desea mostrar diferentes productos y que puedan adapatarse al dispositivo, lo mejor es usar `grid`, ya que este permite posicionar segun convenga en columnas o filas. El siguiente codigo es clave para trabajar esta opcion
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*2 columnas*/
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /*3 columnas*/
+  }
+}
+```
+
+---
+
+Se pueden insertar imagenes desde el `CSS`, utilizando las propiedades de `background-image: url(../img/imagen.jpg);`
