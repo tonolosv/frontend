@@ -54,3 +54,11 @@ Cuando se desea mostrar diferentes productos y que puedan adapatarse al disposit
 ---
 
 Se pueden insertar imagenes desde el `CSS`, utilizando las propiedades de `background-image: url(../img/imagen.jpg);`
+
+---
+
+Conocer mas acerca de los formularios y sus atributos para mejorar su desempeño
+
+---
+
+Para ver el proyecto terminado visita [frontend Store](https://store-frontend-test.netlify.app/)
