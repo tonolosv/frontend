@@ -1,6 +1,6 @@
 # 3 Columnas iguales CSS GRID
 
-- Los elementos a separar deben de coexistir en un elmento que se denomida _**contenedor Padre**_
+- :heavy_exclamation_mark: Los elementos a separar deben de coexistir en un elmento que se denomida _**contenedor Padre**_
 
   ```html
   <div class="contenedor tres-columnas">
