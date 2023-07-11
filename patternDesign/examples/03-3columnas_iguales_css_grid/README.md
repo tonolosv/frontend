@@ -32,3 +32,7 @@
 Resultado
 
 ![3 columnas GRID](/patternDesign/examples/03-3columnas_iguales_css_grid/img/tres-columnas-grid.png)
+
+---
+
+[volver al menu](/patternDesign/examples/)

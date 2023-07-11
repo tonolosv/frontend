@@ -36,3 +36,7 @@
 Resultado final
 
 ![2 columnas](/patternDesign/examples/01-2columnas_iguales_css_grid/img/d-columns-grid.png)
+
+---
+
+[volver al menu](/patternDesign/examples/)

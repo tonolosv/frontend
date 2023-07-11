@@ -50,3 +50,7 @@
 
 Resultado final
 ![2 columnas Flexbox](/patternDesign/examples/02-2columnas_iguales_flexbox/img/d-columns-flex.png)
+
+---
+
+[volver al menu](/patternDesign/examples/)
