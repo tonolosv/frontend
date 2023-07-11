@@ -35,4 +35,4 @@ Resultado
 
 ---
 
-[volver al menu](/patternDesign)
+[:leftwards_arrow_with_hook: volver a menu](/patternDesign/)
