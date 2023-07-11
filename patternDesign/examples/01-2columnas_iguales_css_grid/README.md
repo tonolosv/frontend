@@ -1,11 +1,11 @@
 # 2 columnas iguales con CSS GRID
 
-- Esto es aplicable de dispositivos tablet a pc, porque en dispositivos moviles los coloca uno debajo del otro
+- Esto es aplicable eN dispositivos tablet a pc, porque en dispositivos moviles los coloca uno debajo del otro
 - Para ello se empezara a usar un media query de 768px (tablet) como medida estandar
-- Para aplicar el CSS GRId, es importante que el contenedor de los layout sea modificado sea el **padre**
+- Para aplicar el CSS GRId, es importante que el contenedor de los layout sea el **_padre_**
 
 > ```html
-> <div class="contenedor dos-columnas">
+> <div class="contenedor dos-columnas"> <!--describe lo que se realizara-->
 >   <article class="entrada-blog">
 >     <h1>Titulo Entrada Blog</h1>
 >   </article>
