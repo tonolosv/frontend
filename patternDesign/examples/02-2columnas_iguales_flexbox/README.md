@@ -53,4 +53,4 @@ Resultado final
 
 ---
 
-[volver al menu](/patternDesign/examples/)
+[volver al menu](/patternDesign/)
