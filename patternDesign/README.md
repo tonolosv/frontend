@@ -12,4 +12,5 @@ En este apartado se veran patrones trabajados desde CSS Grid o Flexbox, ambos ti
 - Mostly Fluid
 
 ---
-[:leftwards_arrow_with_hook: menu principal](/frontend/)
+
+[:leftwards_arrow_with_hook: menu principal](/README.md)
