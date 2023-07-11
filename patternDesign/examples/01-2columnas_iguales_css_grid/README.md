@@ -5,7 +5,8 @@
 - Para aplicar el CSS GRId, es importante que el contenedor de los layout sea el **_padre_**
 
 > ```html
-> <div class="contenedor dos-columnas"> <!--describe lo que se realizara-->
+> <div class="contenedor dos-columnas">
+>   <!--describe lo que se realizara-->
 >   <article class="entrada-blog">
 >     <h1>Titulo Entrada Blog</h1>
 >   </article>
@@ -31,3 +32,7 @@
 > grid-template-columns: 1fr 1fr;
 > grid-template-columns: repeat (2, 1fr);
 > ```
+
+Resultado final
+
+![2 columnas](/patternDesign/examples/01-2columnas_iguales_css_grid/img/d-columns-grid.png)
