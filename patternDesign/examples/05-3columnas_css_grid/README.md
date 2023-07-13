@@ -33,7 +33,7 @@ Lo que se vera a continuacion en su primer aporte, es el trabajo de la forma num
 
   ![aside debajo](/patternDesign/examples/05-3columnas_css_grid/img/aside_abajo.png)
 
-  Se podría colocar un aside desde la posicion `grid column: 1/2`, pero esto hara que salte a una nuevo `row`, ejemplificado en la siguiente imagen.
+  Se podría colocar un aside desde la posicion `grid column: 1/2`, pero esto hara que salte a un nuevo `row`, ejemplificado en la siguiente imagen.
   Esto se da por el conflicto de _<u>colocacion automatica de la cuadricula</u>_; su acomodo es automatico.
 
   ```css
