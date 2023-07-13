@@ -96,3 +96,6 @@ Lo que se vera a continuacion en su primer aporte, es el trabajo de la forma num
   ```
 
   ![Posicionamiento final](/patternDesign/examples/05-3columnas_css_grid/img/final.png)
+
+  ---
+  [:leftwards_arrow_with_hook: volver a menu](/patternDesign/)
