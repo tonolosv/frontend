@@ -6,7 +6,7 @@ Lo que se vera a continuacion en su primer aporte, es el trabajo de la forma num
 
 ### HTML
 
-- El contenido principal deberá estar dentro de 2 clases, una padre que tendra la garantía que desde alli, se aplicará la propiedad `grid` y la otra que tendra la propiedad `x`
+- El contenido principal deberá estar dentro de 2 clases, una padre que tendra la garantía que desde alli, se aplicará la propiedad `grid` y la otra que tendra la propiedad `grid-template-areas`
 - los elementos que acompañan al contenido principal, deben ser identificados como `sidebar` 1/2 respectivamente
 
 ### CSS
