@@ -30,3 +30,6 @@ Los aside tendran 2 clases, una para aplicar `flex-basis` y una de ellas porque 
 ---
 
 ![columnas flexbox](/patternDesign/examples/06-3columnas_flexbox/img/flexbox.png)
+
+---
+[:leftwards_arrow_with_hook: volver a menu](/patternDesign/)
