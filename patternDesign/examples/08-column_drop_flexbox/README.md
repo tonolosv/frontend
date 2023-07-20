@@ -37,3 +37,7 @@ Las condiciones de trabajo que se realizaron anteriormente son identicas en este
 - Dispositivos Moviles
 
   ![](/patternDesign/examples/08-column_drop_flexbox/img/movil.png)
+
+---
+
+[:leftwards_arrow_with_hook: volver a menu](/patternDesign/)

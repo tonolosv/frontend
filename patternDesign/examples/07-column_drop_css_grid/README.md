@@ -93,3 +93,7 @@ Se muestra como puede cambiar la posicion de las columnas (Notar en el encabezad
 - Dispositivo menor a 480px
 
   ![Medium](/patternDesign/examples/07-column_drop_css_grid/img/Large-Screen-688x1031.png)
+
+---
+
+[:leftwards_arrow_with_hook: volver a menu](/patternDesign/)
