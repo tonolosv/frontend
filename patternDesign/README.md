@@ -10,6 +10,7 @@ En este apartado se veran patrones trabajados desde CSS Grid o Flexbox, ambos ti
 - [3 columnas Flexbox diferente tamaño](/patternDesign/examples/06-3columnas_flexbox/)
 - [Column Drop Grid](/patternDesign/examples/07-column_drop_css_grid/)
 - [Column Drop Flex](/patternDesign/examples/08-column_drop_flexbox/)
+- [Sidebar GRID](/patternDesign/examples/09-con_sidebar_css_grid/)
 
 ---
 
