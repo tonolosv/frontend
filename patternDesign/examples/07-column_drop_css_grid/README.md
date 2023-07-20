@@ -54,6 +54,38 @@ Es una reposicion de columnas, las cuales se van "recolocando" con una fluidez u
 
 Se muestra como puede cambiar la posicion de las columnas (Notar en el encabezado) que el orden ha cambiado cuando va de mayor a menor.
 
+```css
+@media (min-width: 480px) {
+  .column-drop-css {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .primera {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  .segunda {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+}
+
+@media (min-width: 768px) {
+  .column-drop-css {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .primera {
+    grid-column: 2/3;
+    grid-row: unset; /*Resetea el grid row*/
+  }
+  .segunda {
+    grid-column: 3/4;
+    grid-row: unset; /*Resetea el grid row*/
+  }
+}
+```
+
 - Dispositivo mayor a 768px
 
   ![Large](/patternDesign/examples/07-column_drop_css_grid/img/Medium-Screen-1024x800.png)
